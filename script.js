@@ -5,7 +5,8 @@ const options = {
     "X-RapidAPI-Host": "lyrics-finder1.p.rapidapi.com",
   },
 };
-
+document.body.style.backgroundImage =
+  "url('https://source.unsplash.com/1920x1080/?music')";
 function onSubmit() {
   const songTitle = document
     .getElementById("song-name")
@@ -15,6 +16,7 @@ function onSubmit() {
     .getElementById("band-name")
     .value.toLowerCase()
     .replace(/ /g, "-");
+
   fetch(
     `https://lyrics-finder1.p.rapidapi.com/${bandName}/${songTitle}`,
     options
@@ -26,6 +28,7 @@ function onSubmit() {
       document.getElementById("song-lyric").innerText = response[0].songLyric
         .replace(/[A-Z]/g, "\n$&")
         .trim();
+      document.getElementById("lyric-container").style.display = "grid";
     })
 
     .catch((err) => console.error(err));
