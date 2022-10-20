@@ -19,7 +19,7 @@ body {
   place-items: center;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-gap: 2px;
-  padding: 50px;
+  padding: 25px;
   border-radius: 0.5rem;
   background: rgba(188, 188, 188, 0.9);
   box-shadow: 0px -10px 60px -1px rgba(0, 0, 0, 0.7);
@@ -33,10 +33,10 @@ body {
 } */
 input {
   font-size: 25px;
-  border-radius: 0.25rem;
+  border-radius: 0.35rem;
   width: 50vw;
-  height: 5vh;
-  box-shadow: 5px 7px 10px -4px rgba(0, 0, 0, 0.7);
+  height: 6vh;
+  box-shadow: 5px 7px 10px -4px rgba(0, 0, 0);
 }
 button {
   font-size: 25px;
