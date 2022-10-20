@@ -17,9 +17,9 @@ body {
   place-items: center;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-gap: 5px;
-  margin-bottom: 15%;
-  padding: 25%;
-  /* background: white; */
+  /* margin-bottom: 5px; */
+  padding: 10%;
+  /* background: rgb(124, 124, 124); */
 }
 .search {
   background: white;
@@ -37,5 +37,10 @@ body {
 }
 .song-lyric {
   text-align: center;
+
   max-width: 300px;
 }
+/* .lyric-container {
+  overflow: scroll;
+  max-height: 30vh;
+} */
