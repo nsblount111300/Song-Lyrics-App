@@ -22,7 +22,7 @@ body {
   grid-gap: 2px;
   padding: 25px;
   border-radius: 0.5rem;
-  background: rgba(188, 188, 188, 0.9);
+  background: rgba(105, 105, 105, 0.9);
   box-shadow: 10px 10px 10px -5px rgba(0, 0, 0);
 }
 /* .search {
@@ -85,7 +85,7 @@ button {
   max-width: 80vw;
   border-radius: 0.5rem;
   color: black;
-  background: rgba(188, 188, 188, 0.9);
+  background: rgba(105, 105, 105, 0.9);
   box-shadow: 10px 10px 10px -5px rgba(0, 0, 0);
   display: none;
   /* overflow: scroll; */
