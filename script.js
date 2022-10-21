@@ -7,6 +7,7 @@ const options = {
 };
 document.body.style.backgroundImage =
   "url('https://source.unsplash.com/1920x1080/?music')";
+
 function onSubmit() {
   const songTitle = document
     .getElementById("song-name")
@@ -33,3 +34,10 @@ function onSubmit() {
 
     .catch((err) => console.error(err));
 }
+
+// let nameOfBand;
+// document.getElementById("myButton").onclick = function () {
+//   nameOfBand = document.getElementById("bandName").value;
+//   console.log(nameOfBand);
+//   document.getElementById("bandName").innerHTML = nameOfBand
+// };
